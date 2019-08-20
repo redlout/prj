@@ -12,7 +12,7 @@ import java.util.Map;
 @Controller
 @RequestMapping("api/user")
 public class UserController {
-    @RequestMapping(value = "hello", method =   RequestMethod.GET)
+    @RequestMapping(value = "hello", method = RequestMethod.GET)
     @ResponseBody
     public Map login(HttpSession httpSession){
         Map<String, Object> map = new HashMap<String, Object>();
